@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LT.DigitalOffice.UnitTestKernel", "src\LT.DigitalOffice.UnitTestKernel\LT.DigitalOffice.UnitTestKernel.csproj", "{45A4F8E2-8F48-4EE2-BB60-F0AB373C73F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestKernel", "src\UnitTestKernel\UnitTestKernel.csproj", "{45A4F8E2-8F48-4EE2-BB60-F0AB373C73F6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5C5D4F77-70A4-4477-85FB-A20088039D21}"
 EndProject

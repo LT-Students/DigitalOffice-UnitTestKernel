@@ -5,8 +5,8 @@
 
     <TargetFramework>netstandard2.1</TargetFramework>
 
-    <AssemblyName>LT.DigitalOffice.Kernel</AssemblyName>
-    <RootNamespace>LT.DigitalOffice.Kernel</RootNamespace>
+    <AssemblyName>LT.DigitalOffice.UnitTestKernel</AssemblyName>
+    <RootNamespace>LT.DigitalOffice.UnitTestKernel</RootNamespace>
 
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
