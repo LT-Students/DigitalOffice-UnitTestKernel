@@ -3,11 +3,13 @@
   <PropertyGroup>
     <Version>1.0.0</Version>
 
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
 
     <AssemblyName>LT.DigitalOffice.UnitTestKernel</AssemblyName>
     <RootNamespace>LT.DigitalOffice.UnitTestKernel</RootNamespace>
-
+    <IsPackable>true</IsPackable>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
