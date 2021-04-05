@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>LT.DigitalOffice.UnitTestKernel</id>
+    <version>1.0.2</version>
+    <title>LT.DigitalOffice.UnitTestKernel</title>
+    <authors>LT Digital Office</authors>
+    <owners>LT Digital Office</owners>
+    <projectUrl>https://github.com/LT-Students/DigitalOffice-Kernel</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Library used in the Digital Office project.</description>
+    <releaseNotes>
+1.0.2 - Add nuspec.
+
+Previous versions:
+1.0.1 - Move to .Net 5.
+    </releaseNotes>
+    <copyright>Copyright © LT Digital Office</copyright>
+    <tags>DigitalOffice</tags>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Microsoft.NET.Test.Sdk" version="16.7.1"/>
+        <dependency id="Moq" version="4.14.7"/>
+        <dependency id="NUnit" version="3.12.0"/>
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="artifacts\LT.DigitalOffice.UnitTestKernel.dll" target="lib\net5.0" />
+    <file src="artifacts\LT.DigitalOffice.UnitTestKernel.pdb" target="lib\net5.0" />
+  </files>
+</package>

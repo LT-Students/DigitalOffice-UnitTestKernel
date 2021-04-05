@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CE03017C-663E-4F8C-A649-B260F4D24A54}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		LT.DigitalOffice.UnitTestKernel.nuspec = LT.DigitalOffice.UnitTestKernel.nuspec
 		.github\workflows\nuget.yml = .github\workflows\nuget.yml
 		README.md = README.md
 		.github\workflows\verification.yml = .github\workflows\verification.yml
