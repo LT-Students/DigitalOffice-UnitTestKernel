@@ -1,27 +1,30 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
     <id>LT.DigitalOffice.UnitTestKernel</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <title>LT.DigitalOffice.UnitTestKernel</title>
     <authors>LT Digital Office</authors>
     <owners>LT Digital Office</owners>
-    <projectUrl>https://github.com/LT-Students/DigitalOffice-Kernel</projectUrl>
+    <projectUrl>https://github.com/LT-Students/DigitalOffice-UnitTestKernel</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-1.0.2 - Add nuspec.
+1.0.3 - Update nugets version. Add Moq.AutoMock nuget. Fix project URL.
 
 Previous versions:
+1.0.2 - Add nuspec.
 1.0.1 - Move to .Net 5.
     </releaseNotes>
     <copyright>Copyright © LT Digital Office</copyright>
     <tags>DigitalOffice</tags>
     <dependencies>
       <group targetFramework="net5.0">
-        <dependency id="Microsoft.NET.Test.Sdk" version="16.7.1"/>
-        <dependency id="Moq" version="4.14.7"/>
-        <dependency id="NUnit" version="3.12.0"/>
+        <dependency id="Microsoft.NET.Test.Sdk" version="16.9.4" />
+        <dependency id="Moq" version="4.16.1"/>
+        <dependency id="Moq.AutoMock" version="2.3.0" />
+        <dependency id="NUnit" version="3.13.1" />
+        <dependency id="System.Test.Json" version="5.0.2" />
       </group>
     </dependencies>
   </metadata>
