@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>LT.DigitalOffice.UnitTestKernel</id>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <title>LT.DigitalOffice.UnitTestKernel</title>
     <authors>LT Digital Office</authors>
     <owners>LT Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-1.0.3 - Update nugets version. Add Moq.AutoMock nuget. Fix project URL.
+1.0.4 - Remove System.Text.Json from dependencies list.
 
 Previous versions:
+1.0.3 - Update nugets version. Add Moq.AutoMock nuget. Fix project URL.
 1.0.2 - Add nuspec.
 1.0.1 - Move to .Net 5.
     </releaseNotes>
@@ -24,7 +25,6 @@ Previous versions:
         <dependency id="Moq" version="4.16.1"/>
         <dependency id="Moq.AutoMock" version="2.3.0" />
         <dependency id="NUnit" version="3.13.1" />
-        <dependency id="System.Test.Json" version="5.0.2" />
       </group>
     </dependencies>
   </metadata>
