@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>LT.DigitalOffice.UnitTestKernel</id>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <title>LT.DigitalOffice.UnitTestKernel</title>
     <authors>LT Digital Office</authors>
     <owners>LT Digital Office</owners>
@@ -10,17 +10,18 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-1.0.4 - Remove System.Text.Json from dependencies list.
+		1.0.5 - Update to .Net 6.
 
-Previous versions:
-1.0.3 - Update nugets version. Add Moq.AutoMock nuget. Fix project URL.
-1.0.2 - Add nuspec.
-1.0.1 - Move to .Net 5.
-    </releaseNotes>
+		Previous versions:
+		1.0.4 - Remove System.Text.Json from dependencies list.
+		1.0.3 - Update nugets version. Add Moq.AutoMock nuget. Fix project URL.
+		1.0.2 - Add nuspec.
+		1.0.1 - Move to .Net 5.
+	</releaseNotes>
     <copyright>Copyright © LT Digital Office</copyright>
     <tags>DigitalOffice</tags>
     <dependencies>
-      <group targetFramework="net5.0">
+      <group targetFramework="net6.0">
         <dependency id="Microsoft.NET.Test.Sdk" version="16.9.4" />
         <dependency id="Moq" version="4.16.1"/>
         <dependency id="Moq.AutoMock" version="2.3.0" />
@@ -29,7 +30,7 @@ Previous versions:
     </dependencies>
   </metadata>
   <files>
-    <file src="artifacts\LT.DigitalOffice.UnitTestKernel.dll" target="lib\net5.0" />
-    <file src="artifacts\LT.DigitalOffice.UnitTestKernel.pdb" target="lib\net5.0" />
+    <file src="artifacts\LT.DigitalOffice.UnitTestKernel.dll" target="lib\net6.0" />
+    <file src="artifacts\LT.DigitalOffice.UnitTestKernel.pdb" target="lib\net6.0" />
   </files>
 </package>
