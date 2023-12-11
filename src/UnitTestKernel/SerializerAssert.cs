@@ -13,10 +13,10 @@ namespace LT.DigitalOffice.UnitTestKernel
         /// </summary>
         public static void AreEqual(object expected, object result)
         {
-            var expectedJson = JsonSerializer.Serialize(expected);
-            var resultJson = JsonSerializer.Serialize(result);
+            string expectedJson = JsonSerializer.Serialize(expected);
+            string resultJson = JsonSerializer.Serialize(result);
 
-            Assert.AreEqual(expectedJson, resultJson);
+            Assert.That(resultJson, Is.EqualTo(expectedJson));
         }
 
         /// <summary>
@@ -27,7 +27,7 @@ namespace LT.DigitalOffice.UnitTestKernel
             string expectedJson = JsonSerializer.Serialize(expected);
             string resultJson = JsonSerializer.Serialize(result);
 
-            Assert.AreNotEqual(expectedJson, resultJson);
+            Assert.That(resultJson, Is.EqualTo(expectedJson));
         }
     }
 }
