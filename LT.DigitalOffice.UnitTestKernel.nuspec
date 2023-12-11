@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>LTDO.Kernel.UnitTestSupport</id>
-    <version>1.0.6</version>
+    <version>1.0.8</version>
     <title>LT.DigitalOffice.UnitTestKernel</title>
     <authors>LT Digital Office</authors>
     <owners>LT Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.7 - Change id
+		1.0.8 - Migrate to dotnet 8
 
 		Previous versions:
+        1.0.7 - Change id
         1.0.6 - Update to .Net 7.
         1.0.5 - Update to .Net 6.
 		1.0.4 - Remove System.Text.Json from dependencies list.
