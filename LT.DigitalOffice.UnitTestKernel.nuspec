@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>LTDO.Kernel</id>
+    <id>LTDO.Kernel.UnitTestSupport</id>
     <version>1.0.6</version>
     <title>LT.DigitalOffice.UnitTestKernel</title>
     <authors>LT Digital Office</authors>
