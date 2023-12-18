@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>LTDO.Kernel.UnitTestSupport</id>
-    <version>1.0.8</version>
+    <version>2.0.0</version>
     <title>LT.DigitalOffice.UnitTestKernel</title>
     <authors>LT Digital Office</authors>
     <owners>LT Digital Office</owners>
@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.8 - Migrate to dotnet 8
+		2.0.0 - Migrate to dotnet 8
 
 		Previous versions:
         1.0.7 - Change id
@@ -24,7 +24,7 @@
     <copyright>Copyright © LT Digital Office</copyright>
     <tags>DigitalOffice</tags>
     <dependencies>
-      <group targetFramework="net7.0">
+      <group targetFramework="net8.0">
         <dependency id="Moq" version="4.20.70"/>
         <dependency id="Moq.AutoMock" version="3.5.0" />
         <dependency id="NUnit" version="4.0.1" />
@@ -33,7 +33,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="artifacts\LT.DigitalOffice.UnitTestKernel.dll" target="lib\net7.0" />
-    <file src="artifacts\LT.DigitalOffice.UnitTestKernel.pdb" target="lib\net7.0" />
+    <file src="artifacts\LT.DigitalOffice.UnitTestKernel.dll" target="lib\net8.0" />
+    <file src="artifacts\LT.DigitalOffice.UnitTestKernel.pdb" target="lib\net8.0" />
   </files>
 </package>
