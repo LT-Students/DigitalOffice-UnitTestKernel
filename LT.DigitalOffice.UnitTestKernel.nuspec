@@ -3,9 +3,9 @@
   <metadata>
     <id>LTDO.Kernel.UnitTestSupport</id>
     <version>2.0.2</version>
-    <title>LT.DigitalOffice.UnitTestKernel</title>
-    <authors>LT Digital Office</authors>
-    <owners>LT Digital Office</owners>
+    <title>DigitalOffice.UnitTestKernel</title>
+    <authors>Lanit-Tercom Digital Office Team</authors>
+    <owners>Lanit-Tercom Digital Office</owners>
     <projectUrl>https://github.com/LT-Students/DigitalOffice-UnitTestKernel</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
