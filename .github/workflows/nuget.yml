@@ -20,11 +20,6 @@ jobs:
         with:
           dotnet-version: 8.0.x
 
-      - name: Setup NuGet.exe
-        uses: NuGet/setup-nuget@v1.0.5
-        with:
-          nuget-api-key: ${{secrets.NUGET}}
-
       - name: Restore
         run: dotnet restore
 
